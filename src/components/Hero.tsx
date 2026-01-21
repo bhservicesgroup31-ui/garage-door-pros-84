@@ -35,8 +35,8 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="font-display text-5xl md:text-7xl lg:text-8xl text-primary-foreground leading-none mb-6"
           >
-            GARAGE DOOR
-            <span className="block text-secondary">EXPERTS</span>
+            BH GARAGE DOOR
+            <span className="block text-secondary">& GATES SOLUTIONS</span>
           </motion.h1>
 
           <motion.p
