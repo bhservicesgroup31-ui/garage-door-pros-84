@@ -8,7 +8,9 @@ const Header = () => {
 
   const navLinks = [
     { href: "#services", label: "Services" },
-    { href: "#why-us", label: "Why Us" },
+    { href: "#recent-work", label: "Our Work" },
+    { href: "#about", label: "About Us" },
+    { href: "#reviews", label: "Reviews" },
     { href: "#contact", label: "Contact" },
   ];
 
@@ -19,11 +21,16 @@ const Header = () => {
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
             <div className="w-10 h-10 rounded-lg gradient-accent flex items-center justify-center">
-              <span className="font-display text-2xl text-secondary-foreground">GD</span>
+              <span className="font-display text-xl text-secondary-foreground">BH</span>
             </div>
-            <span className="font-display text-2xl text-foreground tracking-wide hidden sm:block">
-              GARAGE DOOR PRO
-            </span>
+            <div className="hidden sm:flex flex-col leading-tight">
+              <span className="font-display text-xl text-foreground tracking-wide">
+                BH GARAGE DOOR
+              </span>
+              <span className="font-display text-sm text-secondary tracking-wide">
+                & GATES SOLUTIONS
+              </span>
+            </div>
           </a>
 
           {/* Desktop Navigation */}
